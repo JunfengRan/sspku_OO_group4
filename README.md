@@ -15,17 +15,17 @@
 	\centering
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatRaw1.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatRaw1.jpg}
 		\caption{Boat fr=1 图像}
 	\end{minipage}
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatRaw9.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatRaw9.jpg}
 		\caption{Boat fr=9 图像}
 	\end{minipage}
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatRaw17.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatRaw17.jpg}
 		\caption{Boat fr=17 图像}
 	\end{minipage}
 	%\qquad
@@ -34,17 +34,17 @@
 	\centering
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatPic1.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatPic1.jpg}
 		\caption{Boat fr=1 配准后的图像}
 	\end{minipage}
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatPic9.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatPic9.jpg}
 		\caption{Boat fr=9 配准后的图像}
 	\end{minipage}
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatPic17.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatPic17.jpg}
 		\caption{Boat fr=17 配准后的图像}
 	\end{minipage}
 	%\qquad
@@ -53,17 +53,17 @@
 	\centering
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatFlow1.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatFlow1.jpg}
 		\caption{Boat fr=1 光流可视化图}
 	\end{minipage}
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatFlow9.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatFlow9.jpg}
 		\caption{Boat fr=9 光流可视化图}
 	\end{minipage}
 	\begin{minipage}{0.32\linewidth}
 		\centering
-		\includegraphics[width=0.9\linewidth]{figures/Nuclear/BoatFlow17.jpg}
+		\includegraphics[width=0.9\linewidth]{Boat/BoatFlow17.jpg}
 		\caption{Boat fr=17 光流可视化图}
 	\end{minipage}
 \end{figure}
