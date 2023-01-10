@@ -6,16 +6,16 @@ import os
 import copy
 
 class OpticalFlow(object):
-    # 初始化, len_cap为教师活动区域的长度, cam_dis为摄像头到教师的距离, human_speed为教师移动速度的阈值, 假设此时摄像头已经合理放缩
-    def __init(self, len_cap=10, cam_dis=5, human_speed_threshold=0.6):
+    # 初始化, len_cap为教师活动区域的长度, cam_dis为摄像头到教师的距离, human_speed为教师移动速度的阈值, 假设此时摄像头已经合理放缩居中, 使得教师检测框占据整个图像高度和宽度的1/2, 假设输出为1920*1080像素, 假设视频帧率为30fps
+    def __init(self, len_cap=10, cam_dis=5, human_speed=0.5):
         self.len_cap = len_cap
         self.cam_dis = cam_dis
         self.human_speed = human_speed_threshold
-        self.optical_flow_threshold = 1 # 大于此(像素间距)值则认为对应像素点产生了移动, 可以进一步计算其准确值, 此处暂时设为1
+        self.optical_flow_threshold = 64 # 大于此(像素间距)值则认为对应像素点产生了移动, 此处根据上述假设暂时设为64
         self.cam_vertical_pos = 0
         self.cam_horizontal_pos = 0
         self.cam_vertical_limit = np.pi / 4
-        self.cam_horizontal_limit = math.atan(lencap / 2 / cam_dis)
+        self.cam_horizontal_limit = math.atan(len_cap / 2 / cam_dis)
 
     # 保存图片
     def save_image(self, image, addr, name, num):
